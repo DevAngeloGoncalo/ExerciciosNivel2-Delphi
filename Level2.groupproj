@@ -1,0 +1,84 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B2F4844A-037C-4384-B78E-46405B1373C7}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Primeiro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Segundo.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Terceiro.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Quarto.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Quinto.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Primeiro">
+        <MSBuild Projects="Primeiro.dproj"/>
+    </Target>
+    <Target Name="Primeiro:Clean">
+        <MSBuild Projects="Primeiro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Primeiro:Make">
+        <MSBuild Projects="Primeiro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Segundo">
+        <MSBuild Projects="Segundo.dproj"/>
+    </Target>
+    <Target Name="Segundo:Clean">
+        <MSBuild Projects="Segundo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Segundo:Make">
+        <MSBuild Projects="Segundo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Terceiro">
+        <MSBuild Projects="Terceiro.dproj"/>
+    </Target>
+    <Target Name="Terceiro:Clean">
+        <MSBuild Projects="Terceiro.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Terceiro:Make">
+        <MSBuild Projects="Terceiro.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Quarto">
+        <MSBuild Projects="Quarto.dproj"/>
+    </Target>
+    <Target Name="Quarto:Clean">
+        <MSBuild Projects="Quarto.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Quarto:Make">
+        <MSBuild Projects="Quarto.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Quinto">
+        <MSBuild Projects="Quinto.dproj"/>
+    </Target>
+    <Target Name="Quinto:Clean">
+        <MSBuild Projects="Quinto.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Quinto:Make">
+        <MSBuild Projects="Quinto.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Primeiro;Segundo;Terceiro;Quarto;Quinto"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Primeiro:Clean;Segundo:Clean;Terceiro:Clean;Quarto:Clean;Quinto:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Primeiro:Make;Segundo:Make;Terceiro:Make;Quarto:Make;Quinto:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
