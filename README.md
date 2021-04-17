@@ -30,4 +30,13 @@ Cada linha do arquivo contém um aluno na seguinte estrutura:
 - O programa deverá ler o conteúdo deste arquivo e armazenar os dados de forma estruturada.
 - Além disto, deverá listar os alunos à esquerda (ListBox) e , conforme o usuário selecionar um aluno, o programa deverá mostra a idade e o peso do aluno, assim:
 
+![1fe1bcc8-c77b-45c2-be44-3a9460d99250](https://user-images.githubusercontent.com/45950068/115102621-68bf3d00-9f22-11eb-8d79-14771c620359.png)
 
+#### Cadastro de alunos 02: 
+Faça o programa semelhante ao anterior.
+
+Onde:
+
+-O nome do aluno está nas primeiras 100 posições de cada linha.
+-A idade do aluno está da posição 101 a 103 de cada linha
+-O peso do aluno está da posição 104 a 108 de cada linha.
