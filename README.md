@@ -32,7 +32,7 @@ Cada linha do arquivo contém um aluno na seguinte estrutura:
 
 ![1fe1bcc8-c77b-45c2-be44-3a9460d99250](https://user-images.githubusercontent.com/45950068/115102621-68bf3d00-9f22-11eb-8d79-14771c620359.png)
 
-#### Cadastro de alunos 02: 
+#### 5° Cadastro de alunos 02: 
 Faça o programa semelhante ao anterior.
 
 Onde:
