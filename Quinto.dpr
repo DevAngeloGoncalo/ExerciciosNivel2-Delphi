@@ -2,7 +2,7 @@ program Quinto;
 
 uses
   Vcl.Forms,
-  ListBox2 in 'ListBox2.pas' {Form5};
+  ListBox2 in 'Exercícios\5 - Quinto\ListBox2.pas' {Form5};
 
 {$R *.res}
 

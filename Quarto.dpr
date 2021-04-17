@@ -2,7 +2,7 @@ program Quarto;
 
 uses
   Vcl.Forms,
-  ListBox1 in 'ListBox1.pas' {Form4};
+  ListBox1 in 'Exercícios\4 - Quarto\ListBox1.pas' {Form4};
 
 {$R *.res}
 

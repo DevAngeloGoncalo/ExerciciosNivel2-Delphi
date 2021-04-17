@@ -2,7 +2,7 @@ program Primeiro;
 
 uses
   Vcl.Forms,
-  SplitLine in 'SplitLine.pas' {Form1};
+  SplitLine in 'Exercícios\1 - Primeiro\SplitLine.pas' {Form1};
 
 {$R *.res}
 

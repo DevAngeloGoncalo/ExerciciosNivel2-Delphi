@@ -2,7 +2,7 @@ program Terceiro;
 
 uses
   Vcl.Forms,
-  Criptografia in 'Criptografia.pas' {Form3};
+  Criptografia in 'Exercícios\3 - Terceiro\Criptografia.pas' {Form3};
 
 {$R *.res}
 

@@ -2,7 +2,7 @@ program Segundo;
 
 uses
   Vcl.Forms,
-  SplitFileParImpar in 'SplitFileParImpar.pas' {Form2};
+  SplitFileParImpar in 'Exercícios\2 - Segundo\SplitFileParImpar.pas' {Form2};
 
 {$R *.res}
 
